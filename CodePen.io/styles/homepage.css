@@ -1,0 +1,94 @@
+/*hero section styles*/
+.hero-section {
+    display: grid;
+    grid-template-columns: 55% 45%;
+    height: 100%;
+    background-image: radial-gradient(circle at 20% 0%, #424650, #000000);
+}
+
+/*hero section left column styles*/
+.hero-section > .left-content {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 95px 0px 55px;
+}
+
+.hero-section > .left-content > .hero-text > .hero-p-1 {
+    font-size: 2.75vw;
+    font-weight: 300;
+}
+
+.hero-section > .left-content > .hero-text > .hero-p-2 {
+    font-size: 2.3vw;
+    color: #b3b3b3;
+    font-style: normal;
+    line-height: 1.5em;
+    letter-spacing: -0.5px;
+}
+
+.hero-section > .left-content > .hero-buttons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.hero-section > .left-content > .hero-buttons button {
+    font-size: 2.6vw;
+    font-weight: 700;
+    border: none;
+    border-radius: 3px;
+    margin: 0px 15px 0px 0px;
+    padding: 15px 25px;
+}
+
+.hero-section > .left-content > .hero-buttons > .hero-button-green button {
+    background-color: #4bce79;
+    transition: 0.8s;
+}
+
+.hero-section > .left-content > .hero-buttons > .hero-button-green button:active {
+    background-color: #111111;
+    color: white;
+}
+
+.hero-section > .left-content > .hero-buttons > .hero-button-black button {
+    background-color: #111111;
+    color: white;
+    transition: 0.8s;
+}
+
+.hero-section > .left-content > .hero-buttons > .hero-button-black button:active {
+    background-color: #4bce79;
+    color: black;
+}
+
+/*hero section right column styles*/
+.hero-section > .right-content {
+    margin: 35px 0px 0px 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-section > .right-content > .right-text {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 15px;
+    margin-bottom: -10px;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.hero-section > .right-content > .right-text em {
+    font-style: normal;
+    color: #81e3f9;
+}
+
+.hero-section > .right-content > .hero-image {
+    display: flex;
+    width: 100%;
+}
+
+.hero-section > .right-content > .hero-image img {
+    width: 100%;
+    box-shadow: 5px 15px 50px black;
+}

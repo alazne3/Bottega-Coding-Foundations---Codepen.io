@@ -1,0 +1,136 @@
+/*common header styles*/
+.header-wrapper {
+    height: 85px;
+    margin: 0px;
+    background-color: #000000;
+    color: #ffffff;
+    display: grid;
+    grid-template-columns: 1fr 2.5fr 2.5fr;
+    align-items: center;
+}
+
+/*logo container styles*/
+.header-wrapper > .logo-wrapper > .logo-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-wrapper > .logo-wrapper > .logo-img img {
+    width: 175px;
+    height: 100%;
+}
+
+/*links wrapper styles*/
+.header-wrapper > .links-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 40px 40px;
+    padding-left: 30px;
+}
+
+.header-wrapper > .links-wrapper > .line1 {
+    display: flex;
+}
+
+.header-wrapper > .links-wrapper > .line1 p {
+    text-transform: uppercase;
+    color: #ece187;
+    font-weight: 600;
+}
+
+.header-wrapper > .links-wrapper > .line2 {
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    column-gap: 15px;
+}
+
+.header-wrapper > .links-wrapper > .line2 > .nav-link {
+    text-align: center;
+}
+
+.header-wrapper > .links-wrapper > .line2 > .nav-link a {
+    text-decoration: none;
+    font-weight: 950;
+    text-shadow: 1px 1px;
+    color: white;
+    font-size: 1.2em;
+    transition: 0.5s;
+}
+
+.header-wrapper > .links-wrapper > .line2 > .nav-link a:hover {
+    color: #4cd87d;
+}
+
+.header-wrapper > .links-wrapper > .line2 > .spark-dropdown button {
+    background-color: transparent;
+    border: none;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #acbdbc;
+    font-weight: 600;
+    margin-left: 15px;
+    padding-bottom: 10px;
+    transition: 0.5s;
+}
+
+.header-wrapper > .links-wrapper > .line2 > .spark-dropdown button:hover {
+    color: #4cd87d;
+}
+
+/*right buttons styles*/
+.header-wrapper > .right-buttons {
+    justify-self: flex-end;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.header-wrapper > .right-buttons > .head-button button, 
+.header-wrapper > .right-buttons > .head-button-chev button {
+    background-color: #36383f;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 600;
+    border: none;
+    border-radius: 3px;
+    padding: 15px 25px;
+    margin: 7px;
+    transition: 0.8s;
+}
+
+.header-wrapper > .right-buttons > .head-button-chev i {
+    color: #4cd87d;
+    padding-left: 8px;
+    font-size: 1.2em;
+    vertical-align: bottom;
+    transition: 0.5s;
+}
+
+.header-wrapper > .right-buttons > .head-button-chev button:hover {
+    background-color: #4cd87d;
+}
+
+.header-wrapper > .right-buttons > .head-button-chev button:hover i {
+    color: white;
+}
+
+.header-wrapper > .right-buttons > .head-button button:active {
+    background-color: #4cd87d;
+}
+
+.header-wrapper > .right-buttons > .search-icon button {
+    background-color: transparent;
+    border: none;
+    font-size: 2em;
+    text-decoration: none;
+    color: #7d808d;
+    padding: 15px 20px;
+    transition: 0.5s;
+}
+
+.header-wrapper > .right-buttons > .search-icon button:hover {
+    color: white;
+}

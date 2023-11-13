@@ -1,0 +1,47 @@
+/*footer styles*/
+.footer {
+    height: 150px;
+}
+
+/*footer tabs styles*/
+.footer > .footer-tabs {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: #36383f;
+}
+
+.footer > .footer-tabs > .tab {
+    display: flex;
+    border-top: 2px solid #6e6e6d;
+    border-bottom: 2px solid #6e6e6d;
+    border-right: 1px solid #6e6e6d;
+    border-left: 1px solid #6e6e6d;
+    background-color: #36383f;
+    height: 55px;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.footer > .footer-tabs > .tab:hover {
+    background-color: #272727;
+    box-shadow: inset 0px 0px 15px #111111;
+}
+
+.footer > .footer-tabs > .tab:active {
+    background-color: #6e6e6d;
+}
+
+.footer > .footer-tabs > .tab a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 600;
+    text-align: center;
+}
+
+.footer > .footer-tabs > .tab strong {
+    font-size: 1.25em;
+    font-weight: 900;
+    text-shadow: 1px 1px, 0px 1px, 0px 1px, 0px 1px;
+}
